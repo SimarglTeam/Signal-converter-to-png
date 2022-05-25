@@ -4,7 +4,6 @@ import sys
 
 RATE = 20800
 
-
 def resample(in_filename, out_filename):
     (rate, signal) = scipy.io.wavfile.read(in_filename)
 
